@@ -11,7 +11,10 @@ let calculator = {
   mul() {
     return this.a * this.b;
   },
+
 }
 window.calculator = calculator;
+
+
 
 
