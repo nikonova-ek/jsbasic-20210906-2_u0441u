@@ -4,7 +4,6 @@ function highlight(table) {
     let ageCell = row.cells[1];
     let genderCell = row.cells[2];
     let statusCell = row.cells[3];
-
     if (statusCell.dataset.available === undefined) {
       row.hidden = true;
     }
